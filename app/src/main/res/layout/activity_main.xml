@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA MAHASISWA"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical|center_horizontal"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="285dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/akun" />
+        <Button
+            android:id="@+id/btnTampil"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Tampilkan Data"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btnInput"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Input Data Mahasiswa"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Informasi"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
